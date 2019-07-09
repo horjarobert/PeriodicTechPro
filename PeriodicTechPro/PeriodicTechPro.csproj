@@ -1,0 +1,1284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AD80A2A6-8A8C-45F8-9332-AA2563EDCE32}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PeriodicTechPro</RootNamespace>
+    <AssemblyName>PeriodicTechPro</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="abcS104.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="abcS104.Designer.cs">
+      <DependentUpon>abcS104.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adaS48.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adaS48.Designer.cs">
+      <DependentUpon>adaS48.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ajaxW17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ajaxW17.Designer.cs">
+      <DependentUpon>ajaxW17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aliceS75.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aliceS75.Designer.cs">
+      <DependentUpon>aliceS75.cs</DependentUpon>
+    </Compile>
+    <Compile Include="angularJS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="angularJS.Designer.cs">
+      <DependentUpon>angularJS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="angularW16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="angularW16.Designer.cs">
+      <DependentUpon>angularW16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="animation.cs" />
+    <Compile Include="arangoQ92.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="arangoQ92.Designer.cs">
+      <DependentUpon>arangoQ92.cs</DependentUpon>
+    </Compile>
+    <Compile Include="arcS104.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="arcS104.Designer.cs">
+      <DependentUpon>arcS104.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aspW52.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aspW52.Designer.cs">
+      <DependentUpon>aspW52.cs</DependentUpon>
+    </Compile>
+    <Compile Include="assemblyS13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="assemblyS13.Designer.cs">
+      <DependentUpon>assemblyS13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="awkS56.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="awkS56.Designer.cs">
+      <DependentUpon>awkS56.cs</DependentUpon>
+    </Compile>
+    <Compile Include="b54.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="b54.Designer.cs">
+      <DependentUpon>b54.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bashS82.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bashS82.Designer.cs">
+      <DependentUpon>bashS82.cs</DependentUpon>
+    </Compile>
+    <Compile Include="basicS108.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="basicS108.Designer.cs">
+      <DependentUpon>basicS108.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bO54.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bO54.Designer.cs">
+      <DependentUpon>bO54.cs</DependentUpon>
+    </Compile>
+    <Compile Include="booS50.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="booS50.Designer.cs">
+      <DependentUpon>booS50.cs</DependentUpon>
+    </Compile>
+    <Compile Include="c++S3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="c++S3.Designer.cs">
+      <DependentUpon>c++S3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cassandraQ103.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cassandraQ103.Designer.cs">
+      <DependentUpon>cassandraQ103.cs</DependentUpon>
+    </Compile>
+    <Compile Include="chapelS106.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chapelS106.Designer.cs">
+      <DependentUpon>chapelS106.cs</DependentUpon>
+    </Compile>
+    <Compile Include="citrineS72.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="citrineS72.Designer.cs">
+      <DependentUpon>citrineS72.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cleanS115.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cleanS115.Designer.cs">
+      <DependentUpon>cleanS115.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cobolO18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cobolO18.Designer.cs">
+      <DependentUpon>cobolO18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cobraS112.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cobraS112.Designer.cs">
+      <DependentUpon>cobraS112.cs</DependentUpon>
+    </Compile>
+    <Compile Include="coqS30.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="coqS30.Designer.cs">
+      <DependentUpon>coqS30.cs</DependentUpon>
+    </Compile>
+    <Compile Include="couchdbQ96.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="couchdbQ96.Designer.cs">
+      <DependentUpon>couchdbQ96.cs</DependentUpon>
+    </Compile>
+    <Compile Include="crystalS49.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crystalS49.Designer.cs">
+      <DependentUpon>crystalS49.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cS1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cS1.Designer.cs">
+      <DependentUpon>cS1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="csharpS4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="csharpS4.Designer.cs">
+      <DependentUpon>csharpS4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cssW6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cssW6.Designer.cs">
+      <DependentUpon>cssW6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cuneiformS77.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cuneiformS77.Designer.cs">
+      <DependentUpon>cuneiformS77.cs</DependentUpon>
+    </Compile>
+    <Compile Include="curlS27.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="curlS27.Designer.cs">
+      <DependentUpon>curlS27.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dartS26.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dartS26.Designer.cs">
+      <DependentUpon>dartS26.cs</DependentUpon>
+    </Compile>
+    <Compile Include="darwinS74.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="darwinS74.Designer.cs">
+      <DependentUpon>darwinS74.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dataDev.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dataDev.Designer.cs">
+      <DependentUpon>dataDev.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delphiS25.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delphiS25.Designer.cs">
+      <DependentUpon>delphiS25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dS12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dS12.Designer.cs">
+      <DependentUpon>dS12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dylanS47.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dylanS47.Designer.cs">
+      <DependentUpon>dylanS47.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dynamodbQ100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dynamodbQ100.Designer.cs">
+      <DependentUpon>dynamodbQ100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="elixirS23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="elixirS23.Designer.cs">
+      <DependentUpon>elixirS23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="elmS43.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="elmS43.Designer.cs">
+      <DependentUpon>elmS43.cs</DependentUpon>
+    </Compile>
+    <Compile Include="epigramS107.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="epigramS107.Designer.cs">
+      <DependentUpon>epigramS107.cs</DependentUpon>
+    </Compile>
+    <Compile Include="erlangS78.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="erlangS78.Designer.cs">
+      <DependentUpon>erlangS78.cs</DependentUpon>
+    </Compile>
+    <Compile Include="esketitNr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="esketitNr.Designer.cs">
+      <DependentUpon>esketitNr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="euphoriaS114.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="euphoriaS114.Designer.cs">
+      <DependentUpon>euphoriaS114.cs</DependentUpon>
+    </Compile>
+    <Compile Include="euphoriaS115.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="euphoriaS115.Designer.cs">
+      <DependentUpon>euphoriaS115.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fantomS31.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fantomS31.Designer.cs">
+      <DependentUpon>fantomS31.cs</DependentUpon>
+    </Compile>
+    <Compile Include="firebirdQ94.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="firebirdQ94.Designer.cs">
+      <DependentUpon>firebirdQ94.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fortranO2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fortranO2.Designer.cs">
+      <DependentUpon>fortranO2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="genieS76.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="genieS76.Designer.cs">
+      <DependentUpon>genieS76.cs</DependentUpon>
+    </Compile>
+    <Compile Include="goS20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="goS20.Designer.cs">
+      <DependentUpon>goS20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gosuS46.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gosuS46.Designer.cs">
+      <DependentUpon>gosuS46.cs</DependentUpon>
+    </Compile>
+    <Compile Include="graphqlQ99.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="graphqlQ99.Designer.cs">
+      <DependentUpon>graphqlQ99.cs</DependentUpon>
+    </Compile>
+    <Compile Include="groovyS32.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="groovyS32.Designer.cs">
+      <DependentUpon>groovyS32.cs</DependentUpon>
+    </Compile>
+    <Compile Include="haskellS39.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="haskellS39.Designer.cs">
+      <DependentUpon>haskellS39.cs</DependentUpon>
+    </Compile>
+    <Compile Include="haxeS81.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="haxeS81.Designer.cs">
+      <DependentUpon>haxeS81.cs</DependentUpon>
+    </Compile>
+    <Compile Include="htmlW5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="htmlW5.Designer.cs">
+      <DependentUpon>htmlW5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="idlS87.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="idlS87.Designer.cs">
+      <DependentUpon>idlS87.cs</DependentUpon>
+    </Compile>
+    <Compile Include="idrisS107.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="idrisS107.Designer.cs">
+      <DependentUpon>idrisS107.cs</DependentUpon>
+    </Compile>
+    <Compile Include="javaS11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="javaS11.Designer.cs">
+      <DependentUpon>javaS11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="javaScriptW7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="javaScriptW7.Designer.cs">
+      <DependentUpon>javaScriptW7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jsharpS22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jsharpS22.Designer.cs">
+      <DependentUpon>jsharpS22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="juliaS24.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="juliaS24.Designer.cs">
+      <DependentUpon>juliaS24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kojoS105.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kojoS105.Designer.cs">
+      <DependentUpon>kojoS105.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kotlinS44.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kotlinS44.Designer.cs">
+      <DependentUpon>kotlinS44.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ladderS84.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ladderS84.Designer.cs">
+      <DependentUpon>ladderS84.cs</DependentUpon>
+    </Compile>
+    <Compile Include="linqQ95.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="linqQ95.Designer.cs">
+      <DependentUpon>linqQ95.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lispAnim.cs" />
+    <Compile Include="lispO10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lispO10.Designer.cs">
+      <DependentUpon>lispO10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="luaS21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="luaS21.Designer.cs">
+      <DependentUpon>luaS21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="markdownW34.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="markdownW34.Designer.cs">
+      <DependentUpon>markdownW34.cs</DependentUpon>
+    </Compile>
+    <Compile Include="matlabS38.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="matlabS38.Designer.cs">
+      <DependentUpon>matlabS38.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mongoQ90.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mongoQ90.Designer.cs">
+      <DependentUpon>mongoQ90.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mysqlQ89.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mysqlQ89.Designer.cs">
+      <DependentUpon>mysqlQ89.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nekoS109.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nekoS109.Designer.cs">
+      <DependentUpon>nekoS109.cs</DependentUpon>
+    </Compile>
+    <Compile Include="neo4jQ97.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="neo4jQ97.Designer.cs">
+      <DependentUpon>neo4jQ97.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nimS41.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nimS41.Designer.cs">
+      <DependentUpon>nimS41.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nodeW53.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nodeW53.Designer.cs">
+      <DependentUpon>nodeW53.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oberonS83.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oberonS83.Designer.cs">
+      <DependentUpon>oberonS83.cs</DependentUpon>
+    </Compile>
+    <Compile Include="objectiveS37.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="objectiveS37.Designer.cs">
+      <DependentUpon>objectiveS37.cs</DependentUpon>
+    </Compile>
+    <Compile Include="objectpascalS25.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="objectpascalS25.Designer.cs">
+      <DependentUpon>objectpascalS25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ocamlS28.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ocamlS28.Designer.cs">
+      <DependentUpon>ocamlS28.cs</DependentUpon>
+    </Compile>
+    <Compile Include="old2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="old2.Designer.cs">
+      <DependentUpon>old2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oldDev.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oldDev.Designer.cs">
+      <DependentUpon>oldDev.cs</DependentUpon>
+    </Compile>
+    <Compile Include="openclS79.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="openclS79.Designer.cs">
+      <DependentUpon>openclS79.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oracleQ93.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oracleQ93.Designer.cs">
+      <DependentUpon>oracleQ93.cs</DependentUpon>
+    </Compile>
+    <Compile Include="p5W15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="p5W15.Designer.cs">
+      <DependentUpon>p5W15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="parasailQ98.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="parasailQ98.Designer.cs">
+      <DependentUpon>parasailQ98.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pascal86.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pascal86.Designer.cs">
+      <DependentUpon>pascal86.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pascalO86.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pascalO86.Designer.cs">
+      <DependentUpon>pascalO86.cs</DependentUpon>
+    </Compile>
+    <Compile Include="perlW9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="perlW9.Designer.cs">
+      <DependentUpon>perlW9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="perstQ102.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="perstQ102.Designer.cs">
+      <DependentUpon>perstQ102.cs</DependentUpon>
+    </Compile>
+    <Compile Include="phpW8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="phpW8.Designer.cs">
+      <DependentUpon>phpW8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="postgreQ91.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="postgreQ91.Designer.cs">
+      <DependentUpon>postgreQ91.cs</DependentUpon>
+    </Compile>
+    <Compile Include="processingS40.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="processingS40.Designer.cs">
+      <DependentUpon>processingS40.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="prologS118.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prologS118.Designer.cs">
+      <DependentUpon>prologS118.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="pS42.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pS42.Designer.cs">
+      <DependentUpon>pS42.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pythonW85.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pythonW85.Designer.cs">
+      <DependentUpon>pythonW85.cs</DependentUpon>
+    </Compile>
+    <Compile Include="racketS110.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="racketS110.Designer.cs">
+      <DependentUpon>racketS110.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reactW15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reactW15.Designer.cs">
+      <DependentUpon>reactW15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rebolS80.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rebolS80.Designer.cs">
+      <DependentUpon>rebolS80.cs</DependentUpon>
+    </Compile>
+    <Compile Include="redisQ101.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="redisQ101.Designer.cs">
+      <DependentUpon>redisQ101.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ringS88.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ringS88.Designer.cs">
+      <DependentUpon>ringS88.cs</DependentUpon>
+    </Compile>
+    <Compile Include="roundBtn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rS29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rS29.Designer.cs">
+      <DependentUpon>rS29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rubyW14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rubyW14.Designer.cs">
+      <DependentUpon>rubyW14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rustS45.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rustS45.Designer.cs">
+      <DependentUpon>rustS45.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SCR57actionScript.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SCR57actionScript.Designer.cs">
+      <DependentUpon>SCR57actionScript.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SCR58scala.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SCR58scala.Designer.cs">
+      <DependentUpon>SCR58scala.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SCR59vbs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SCR59vbs.Designer.cs">
+      <DependentUpon>SCR59vbs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SCR60powershell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SCR60powershell.Designer.cs">
+      <DependentUpon>SCR60powershell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SCR61scheme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SCR61scheme.Designer.cs">
+      <DependentUpon>SCR61scheme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SCR62coffescript.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SCR62coffescript.Designer.cs">
+      <DependentUpon>SCR62coffescript.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SCR63typescript.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SCR63typescript.Designer.cs">
+      <DependentUpon>SCR63typescript.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SCR64autoit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SCR64autoit.Designer.cs">
+      <DependentUpon>SCR64autoit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SCR65clojure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SCR65clojure.Designer.cs">
+      <DependentUpon>SCR65clojure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SCR66autohotkey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SCR66autohotkey.Designer.cs">
+      <DependentUpon>SCR66autohotkey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SCR67postscript.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SCR67postscript.Designer.cs">
+      <DependentUpon>SCR67postscript.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SCR68rexx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SCR68rexx.Designer.cs">
+      <DependentUpon>SCR68rexx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SCR69ecmascript.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SCR69ecmascript.Designer.cs">
+      <DependentUpon>SCR69ecmascript.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SCR70unrealscript.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SCR70unrealscript.Designer.cs">
+      <DependentUpon>SCR70unrealscript.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SCR71maxscript.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SCR71maxscript.Designer.cs">
+      <DependentUpon>SCR71maxscript.cs</DependentUpon>
+    </Compile>
+    <Compile Include="scratchS73.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scratchS73.Designer.cs">
+      <DependentUpon>scratchS73.cs</DependentUpon>
+    </Compile>
+    <Compile Include="scriptDev.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scriptDev.Designer.cs">
+      <DependentUpon>scriptDev.cs</DependentUpon>
+    </Compile>
+    <Compile Include="simula36.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="simula36.Designer.cs">
+      <DependentUpon>simula36.cs</DependentUpon>
+    </Compile>
+    <Compile Include="softwareDev.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="softwareDev.Designer.cs">
+      <DependentUpon>softwareDev.cs</DependentUpon>
+    </Compile>
+    <Compile Include="solidityS51.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="solidityS51.Designer.cs">
+      <DependentUpon>solidityS51.cs</DependentUpon>
+    </Compile>
+    <Compile Include="svgW33.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="svgW33.Designer.cs">
+      <DependentUpon>svgW33.cs</DependentUpon>
+    </Compile>
+    <Compile Include="swiftS19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="swiftS19.Designer.cs">
+      <DependentUpon>swiftS19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tclS55.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tclS55.Designer.cs">
+      <DependentUpon>tclS55.cs</DependentUpon>
+    </Compile>
+    <Compile Include="verilogS116.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="verilogS116.Designer.cs">
+      <DependentUpon>verilogS116.cs</DependentUpon>
+    </Compile>
+    <Compile Include="webDev.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="webDev.Designer.cs">
+      <DependentUpon>webDev.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wolframS117.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wolframS117.Designer.cs">
+      <DependentUpon>wolframS117.cs</DependentUpon>
+    </Compile>
+    <Compile Include="xmlW35.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="xmlW35.Designer.cs">
+      <DependentUpon>xmlW35.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yorickS111.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yorickS111.Designer.cs">
+      <DependentUpon>yorickS111.cs</DependentUpon>
+    </Compile>
+    <Compile Include="zonnonS113.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zonnonS113.Designer.cs">
+      <DependentUpon>zonnonS113.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="abcS104.resx">
+      <DependentUpon>abcS104.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adaS48.resx">
+      <DependentUpon>adaS48.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ajaxW17.resx">
+      <DependentUpon>ajaxW17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aliceS75.resx">
+      <DependentUpon>aliceS75.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="angularJS.resx">
+      <DependentUpon>angularJS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="angularW16.resx">
+      <DependentUpon>angularW16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="arangoQ92.resx">
+      <DependentUpon>arangoQ92.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="arcS104.resx">
+      <DependentUpon>arcS104.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aspW52.resx">
+      <DependentUpon>aspW52.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="assemblyS13.resx">
+      <DependentUpon>assemblyS13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="awkS56.resx">
+      <DependentUpon>awkS56.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="b54.resx">
+      <DependentUpon>b54.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bashS82.resx">
+      <DependentUpon>bashS82.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="basicS108.resx">
+      <DependentUpon>basicS108.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bO54.resx">
+      <DependentUpon>bO54.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="booS50.resx">
+      <DependentUpon>booS50.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c++S3.resx">
+      <DependentUpon>c++S3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cassandraQ103.resx">
+      <DependentUpon>cassandraQ103.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chapelS106.resx">
+      <DependentUpon>chapelS106.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="citrineS72.resx">
+      <DependentUpon>citrineS72.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cleanS115.resx">
+      <DependentUpon>cleanS115.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cobolO18.resx">
+      <DependentUpon>cobolO18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cobraS112.resx">
+      <DependentUpon>cobraS112.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="coqS30.resx">
+      <DependentUpon>coqS30.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="couchdbQ96.resx">
+      <DependentUpon>couchdbQ96.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crystalS49.resx">
+      <DependentUpon>crystalS49.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cS1.resx">
+      <DependentUpon>cS1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="csharpS4.resx">
+      <DependentUpon>csharpS4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cssW6.resx">
+      <DependentUpon>cssW6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cuneiformS77.resx">
+      <DependentUpon>cuneiformS77.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="curlS27.resx">
+      <DependentUpon>curlS27.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dartS26.resx">
+      <DependentUpon>dartS26.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="darwinS74.resx">
+      <DependentUpon>darwinS74.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dataDev.resx">
+      <DependentUpon>dataDev.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delphiS25.resx">
+      <DependentUpon>delphiS25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dS12.resx">
+      <DependentUpon>dS12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dylanS47.resx">
+      <DependentUpon>dylanS47.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dynamodbQ100.resx">
+      <DependentUpon>dynamodbQ100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="elixirS23.resx">
+      <DependentUpon>elixirS23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="elmS43.resx">
+      <DependentUpon>elmS43.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="epigramS107.resx">
+      <DependentUpon>epigramS107.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="erlangS78.resx">
+      <DependentUpon>erlangS78.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="esketitNr.resx">
+      <DependentUpon>esketitNr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="euphoriaS114.resx">
+      <DependentUpon>euphoriaS114.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="euphoriaS115.resx">
+      <DependentUpon>euphoriaS115.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fantomS31.resx">
+      <DependentUpon>fantomS31.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="firebirdQ94.resx">
+      <DependentUpon>firebirdQ94.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fortranO2.resx">
+      <DependentUpon>fortranO2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="genieS76.resx">
+      <DependentUpon>genieS76.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="goS20.resx">
+      <DependentUpon>goS20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gosuS46.resx">
+      <DependentUpon>gosuS46.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="graphqlQ99.resx">
+      <DependentUpon>graphqlQ99.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="groovyS32.resx">
+      <DependentUpon>groovyS32.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="haskellS39.resx">
+      <DependentUpon>haskellS39.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="haxeS81.resx">
+      <DependentUpon>haxeS81.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="htmlW5.resx">
+      <DependentUpon>htmlW5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="idlS87.resx">
+      <DependentUpon>idlS87.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="idrisS107.resx">
+      <DependentUpon>idrisS107.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="javaS11.resx">
+      <DependentUpon>javaS11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="javaScriptW7.resx">
+      <DependentUpon>javaScriptW7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jsharpS22.resx">
+      <DependentUpon>jsharpS22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="juliaS24.resx">
+      <DependentUpon>juliaS24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kojoS105.resx">
+      <DependentUpon>kojoS105.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kotlinS44.resx">
+      <DependentUpon>kotlinS44.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ladderS84.resx">
+      <DependentUpon>ladderS84.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="linqQ95.resx">
+      <DependentUpon>linqQ95.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lispO10.resx">
+      <DependentUpon>lispO10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="luaS21.resx">
+      <DependentUpon>luaS21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="markdownW34.resx">
+      <DependentUpon>markdownW34.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="matlabS38.resx">
+      <DependentUpon>matlabS38.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mongoQ90.resx">
+      <DependentUpon>mongoQ90.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mysqlQ89.resx">
+      <DependentUpon>mysqlQ89.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nekoS109.resx">
+      <DependentUpon>nekoS109.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="neo4jQ97.resx">
+      <DependentUpon>neo4jQ97.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nimS41.resx">
+      <DependentUpon>nimS41.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nodeW53.resx">
+      <DependentUpon>nodeW53.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oberonS83.resx">
+      <DependentUpon>oberonS83.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="objectiveS37.resx">
+      <DependentUpon>objectiveS37.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="objectpascalS25.resx">
+      <DependentUpon>objectpascalS25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ocamlS28.resx">
+      <DependentUpon>ocamlS28.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="old2.resx">
+      <DependentUpon>old2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oldDev.resx">
+      <DependentUpon>oldDev.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="openclS79.resx">
+      <DependentUpon>openclS79.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oracleQ93.resx">
+      <DependentUpon>oracleQ93.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="p5W15.resx">
+      <DependentUpon>p5W15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parasailQ98.resx">
+      <DependentUpon>parasailQ98.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pascal86.resx">
+      <DependentUpon>pascal86.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pascalO86.resx">
+      <DependentUpon>pascalO86.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="perlW9.resx">
+      <DependentUpon>perlW9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="perstQ102.resx">
+      <DependentUpon>perstQ102.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="phpW8.resx">
+      <DependentUpon>phpW8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="postgreQ91.resx">
+      <DependentUpon>postgreQ91.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="processingS40.resx">
+      <DependentUpon>processingS40.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prologS118.resx">
+      <DependentUpon>prologS118.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="pS42.resx">
+      <DependentUpon>pS42.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pythonW85.resx">
+      <DependentUpon>pythonW85.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="racketS110.resx">
+      <DependentUpon>racketS110.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reactW15.resx">
+      <DependentUpon>reactW15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rebolS80.resx">
+      <DependentUpon>rebolS80.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="redisQ101.resx">
+      <DependentUpon>redisQ101.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ringS88.resx">
+      <DependentUpon>ringS88.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rS29.resx">
+      <DependentUpon>rS29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rubyW14.resx">
+      <DependentUpon>rubyW14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rustS45.resx">
+      <DependentUpon>rustS45.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCR57actionScript.resx">
+      <DependentUpon>SCR57actionScript.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCR58scala.resx">
+      <DependentUpon>SCR58scala.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCR59vbs.resx">
+      <DependentUpon>SCR59vbs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCR60powershell.resx">
+      <DependentUpon>SCR60powershell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCR61scheme.resx">
+      <DependentUpon>SCR61scheme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCR62coffescript.resx">
+      <DependentUpon>SCR62coffescript.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCR63typescript.resx">
+      <DependentUpon>SCR63typescript.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCR64autoit.resx">
+      <DependentUpon>SCR64autoit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCR65clojure.resx">
+      <DependentUpon>SCR65clojure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCR66autohotkey.resx">
+      <DependentUpon>SCR66autohotkey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCR67postscript.resx">
+      <DependentUpon>SCR67postscript.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCR68rexx.resx">
+      <DependentUpon>SCR68rexx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCR69ecmascript.resx">
+      <DependentUpon>SCR69ecmascript.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCR70unrealscript.resx">
+      <DependentUpon>SCR70unrealscript.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCR71maxscript.resx">
+      <DependentUpon>SCR71maxscript.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="scratchS73.resx">
+      <DependentUpon>scratchS73.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="scriptDev.resx">
+      <DependentUpon>scriptDev.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="simula36.resx">
+      <DependentUpon>simula36.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="softwareDev.resx">
+      <DependentUpon>softwareDev.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="solidityS51.resx">
+      <DependentUpon>solidityS51.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="svgW33.resx">
+      <DependentUpon>svgW33.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="swiftS19.resx">
+      <DependentUpon>swiftS19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tclS55.resx">
+      <DependentUpon>tclS55.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="verilogS116.resx">
+      <DependentUpon>verilogS116.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="webDev.resx">
+      <DependentUpon>webDev.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wolframS117.resx">
+      <DependentUpon>wolframS117.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="xmlW35.resx">
+      <DependentUpon>xmlW35.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yorickS111.resx">
+      <DependentUpon>yorickS111.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zonnonS113.resx">
+      <DependentUpon>zonnonS113.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

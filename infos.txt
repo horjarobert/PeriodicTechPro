@@ -1,0 +1,66 @@
+===class animation on Load for each WinForm
+            animation.AnimateWindow(this.Handle, 500, animation.CENTER);
+
+
+===dimensions
+650, 478
+
+
+===ToolTip on big WinForm, for each element...
+ToolTip symbolName = new ToolTip();
+            symbolName.SetToolTip(this.soft87, "IDL");
+            symbolName.IsBalloon = true;
+
+
+
+===for each element WinForm, these are the bottom notes HOVER_EXAMPLEs:
+------------------ABSTRACTION
+ToolTip infos = new ToolTip();
+            infos.IsBalloon = true;
+            infos.ToolTipTitle = "[Abstraction capability]";
+            infos.SetToolTip(this.abstraction, "Scale: 1 to 10 => 6");
+
+------------------EFFICIENCY
+ToolTip infos = new ToolTip();
+            infos.IsBalloon = true;
+            infos.ToolTipTitle = "[Efficiency power]";
+            infos.SetToolTip(this.efficiency, "Scale: 1 to 10 => 8");
+
+------------------SIMPLICITY
+ToolTip infos = new ToolTip();
+            infos.IsBalloon = true;
+            infos.ToolTipTitle = "[Philosophy of simplicity]";
+            infos.SetToolTip(this.simplicity, "Scale: 1 to 10 => 7");
+
+
+
+===esketit number inside each element WinForm
+ToolTip eskee = new ToolTip();
+            eskee.ToolTipTitle = "[Esketit number]";
+            eskee.SetToolTip(this.number, "IMPORTANT");
+
+---------------------------------------------------------
+Esketit number types are: IMPORTANT, RELEVANT, MIDDLE, RAW
+----------------------------------------------------------
+
+===each element Form title on hover
+ToolTip goOnline = new ToolTip();
+            goOnline.IsBalloon = true;
+            goOnline.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            goOnline.ToolTipTitle = "||Visit||";
+            goOnline.SetToolTip(this.title, "Click and learn!");
+
+
+===each element Close X | hover
+ToolTip closing = new ToolTip();
+            closing.IsBalloon = true;
+            closing.SetToolTip(this.close, "Close");
+
+-----------year of birth
+ToolTip yearB = new ToolTip();
+            yearB.IsBalloon = true;
+            yearB.SetToolTip(this.year, "year of birth");
+
+-----------symbol name
+ToolTip symex = new ToolTip();
+            symex.SetToolTip(this.symbol, "Symbol name");
