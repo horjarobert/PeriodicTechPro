@@ -4,7 +4,7 @@
 ![Demo](https://github.com/horjarobert/PeriodicTechPro/blob/master/programmer'sTable.gif)
 # 1.Intro #
 
--This project is very huge, it is designed by Mendeleev's Table;   
+-This project is very huge, it is designed from Mendeleev's Table;   
 -One of it's benefit, amongs others, is to give a boost to a beginner who want to learn a programming language;   
 -Here you'll find five big types of programming languages/frameworks and an evaluation for each (from my perspective...).   
 ***
